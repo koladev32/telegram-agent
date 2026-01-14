@@ -35,4 +35,8 @@ export const config = {
   providerApiKey: loadEnvVar("PROVIDER_API_KEY", ""),
   providerName: loadEnvVar("PROVIDER_NAME", "google-genai"),
   providerModel: loadEnvVar("PROVIDER_MODEL", "gemini-2.5-flash"),
+
+  // google calendar configuration
+  googleCalendarClientId: loadEnvVar("GOOGLE_CALENDAR_CLIENT_ID", ""),
+  googleCalendarSecret: loadEnvVar("GOOGLE_CALENDAR_CLIENT_SECRET", ""),
 };
