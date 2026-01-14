@@ -5,3 +5,4 @@ export * from "./files";
 export * from "./embeddings";
 export * from "./memory";
 export * from "./redis";
+export * from "./calendar";

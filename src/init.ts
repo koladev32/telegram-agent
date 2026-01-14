@@ -7,6 +7,7 @@ import {
   ChatHistoryService,
   TelegramBotService,
   FileService,
+  CalendarService,
 } from "./modules";
 
 export async function init() {
@@ -15,6 +16,7 @@ export async function init() {
   RagService.init();
   MemoryService.init();
   ChatHistoryService.init();
+  CalendarService.init();
   await ChatService.init();
   FileService.init();
   TelegramBotService.init();
